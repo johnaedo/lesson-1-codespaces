@@ -9,7 +9,7 @@ int subtract(int x, int y) {
 }
 
 int multiply(int x, int y) {
-        return x*y;
+        return y*;
 }
 
 double divide(int x, int y) {
