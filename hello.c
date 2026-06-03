@@ -9,7 +9,7 @@ int main(void)
         if (x > 5) {
          printf("x is greater than 5.");
         } else {
-           printf("x is less than 5.");
+           printf("x is less the LELELELE");
         }
     }
     return 0;
