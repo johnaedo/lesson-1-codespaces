@@ -1,4 +1,10 @@
 #include <stdio.h>
+#include "arith.h"
+
+int add(int x, int y);
+int subtract(int x, int y);
+int multiply(int x, int y);
+double divide(int x, int y);
 
 int main(void)
 {
@@ -14,5 +20,7 @@ int main(void)
                printf("x is less then LELELELE");
         }
     }
+    printf("%d + %d = %d\n", 3, 2, add(3,2));
+    printf("%d - %d = %d\n", 3, 2, subtract(3,2));
     return 0;
 }
