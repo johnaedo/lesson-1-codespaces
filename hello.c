@@ -8,8 +8,10 @@ int main(void)
         printf("This is line %d\n", i + 1);
         if (x > 5) {
          printf("x is greater than 5.");
+        } else if (x == 5) {
+            printf("Congrats! x is now equal to 5. :)");
         } else {
-           printf("x is less then LELELELE");
+               printf("x is less then LELELELE");
         }
     }
     return 0;
