@@ -23,4 +23,6 @@ int main(void)
     printf("%d + %d = %d\n", 3, 2, add(3,2));
     printf("%d - %d = %d\n", 3, 2, subtract(3,2));
     return 0;
+
+    printf("You were hacked by Joshua and Aviva! :)");
 }
